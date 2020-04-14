@@ -1,0 +1,3 @@
+rootProject.name='LabelledEditText'
+include ':app'
+include ':labellededittext'

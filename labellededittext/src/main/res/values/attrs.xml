@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Labelo_EditText">
+
+        <!--    Common  -->
+        <attr name="isErrorEnable" format="boolean" />
+
+        <!--    Title  -->
+        <attr name="title_text" format="reference" />
+        <attr name="title_text_color" format="color" />
+        <attr name="title_text_size" format="dimension"/>
+
+        <!--  EditText -->
+        <attr name="editText" format="reference" />
+        <attr name="editText_hint" format="reference" />
+        <attr name="editText_border_width" format="integer"/>
+        <attr name="editText_max_line" format="integer" />
+        <attr name="editText_min_line" format="integer" />
+        <attr name="editText_max_length" format="integer"/>
+        <attr name="editText_background" format="reference"/>
+        <attr name="android:inputType" />
+        <attr name="editText_textSize" format="dimension"/>
+        <attr name="editText_border_color" format="color"/>
+        <attr name="editText_corner_radius" format="float"/>
+
+        <!-- ErrorText -->
+        <attr name="error_text" format="reference" />
+        <attr name="error_text_color" format="reference" />
+        <attr name="error_text_size" format="dimension"/>
+
+    </declare-styleable>
+</resources>
